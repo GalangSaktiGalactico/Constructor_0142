@@ -30,7 +30,7 @@ int main()
 	Mahasiswa mhs1;
 	Mahasiswa mhs2(20);
 	Mahasiswa mhs3("Galang Sakti");
-	Mahasiswa mhs4(20, "Jihadut Tholibin");
+	Mahasiswa mhs4(30, "Jihadut Tholibin");
 
 	mhs1.cetak();
 	mhs2.cetak();
