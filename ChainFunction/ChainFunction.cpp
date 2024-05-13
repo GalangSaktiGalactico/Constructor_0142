@@ -11,6 +11,9 @@ public:
 	string getJudul() {
 		return this->judul;
 	}
+}bukunya;
 
-
-};
+int main() {
+	cout << bukunya.setJudul("matematika").getJudul();
+	return 0;
+}
