@@ -11,3 +11,9 @@ public:
 	void cetakData();
 	void isiData();
 };
+
+Angka::Angka(int i) {
+	panjang = i;
+	arr = new int[i];
+	isiData();
+}
