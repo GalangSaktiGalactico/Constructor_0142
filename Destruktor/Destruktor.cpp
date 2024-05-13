@@ -37,3 +37,10 @@ void Angka::isiData() {
 	}
 	cout << endl;
 }
+
+int main() {
+	Angka belajarCpp(3);
+	Angka* ptrBelajarCpp = new Angka(5);
+	delete ptrBelajarCpp;
+	return 0;
+}
