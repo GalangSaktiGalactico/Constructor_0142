@@ -16,10 +16,13 @@ public:
 		nama = "Galang Sakti";
 	};
 	Mahasiswa(int iNIM) {nim = iNIM;}
-	Mahasiswa(string iNama); {nama = iNama;}
-	Mahasiswa(int iNIM, string iNama);
+	Mahasiswa(string iNama) {nama = iNama;}
+	Mahasiswa(int iNIM, string iNama) { nim = iNIM; nama = iNama; }
 
-	void cetak();
+	void cetak() {
+		cout << endl << " NIM = " << endl;
+		cout << " Nama = " << endl;
+	}
 };
 
 
